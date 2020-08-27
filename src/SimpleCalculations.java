@@ -8,13 +8,13 @@ public class SimpleCalculations {
         System.out.println(a * b);
         System.out.println(a / b);
 
-        double c = 23.5;
-        double d = 36.7;
+        double c = 23.59;
+        double d = 36.73;
 
-        System.out.println(c + d);
-        System.out.println(Math.round((c - d) * 100) /100);
-        System.out.println(c * d);
-        System.out.println(Math.round((c / d) * 100) /100);
+        System.out.println(Math.round((c + d) * 100.0) / 100.0);
+        System.out.println(Math.round((c - d) * 100.0) / 100.0);
+        System.out.println(Math.round((c * d) * 100.0) / 100.0);
+        System.out.println(Math.round((c / d) * 100.0) / 100.0);
 
 
     }
